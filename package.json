@@ -1,0 +1,15 @@
+{
+  "name": "olho-do-console",
+  "version": "1.0.0",
+  "description": "Site somente leitura que mostra o console do servidor de Minecraft (painel Pterodactyl / Enxada Host)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
